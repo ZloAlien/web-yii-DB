@@ -6,7 +6,7 @@ $TextOut = "";
 $token = "AQAAAAAH8ejxAADLW8NtBYId1E8sk7hIOaITl3Y";
 function get_stat($url, $headers)
 {
-    $handle = curl_init();
+    $handle = curl_init();123123
     curl_setopt($handle, CURLOPT_URL, $url);
     curl_setopt($handle, CURLOPT_HTTPHEADER, $headers);
     curl_setopt($handle, CURLOPT_SSL_VERIFYPEER, false);
